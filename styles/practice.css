@@ -1,0 +1,31 @@
+body {
+    font-size: 30px;
+}
+img {
+    border: 5px solid green;
+    width: 500px;
+    padding: 5px;
+    margin: 20px 60px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+  
+}
+h1, p {
+    border: 5px solid blue;
+    text-align: center;
+}
+#image_box { 
+    text-align: center;
+  
+}
+p {
+    font-size: 3rem;
+}
+div p{ 
+    background-color: pink;
+}
+div p:hover {
+    background-color: lightblue;
+}
