@@ -1,31 +1,56 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Scheherazade+New&display=swap');
+
 body {
     font-size: 30px;
 }
 img {
-    border: 5px solid green;
-    width: 500px;
-    padding: 5px;
+    width: 20%;
+    padding: 10px;
     margin: 20px 60px;
-    border-top-left-radius: 50%;
-    border-top-right-radius: 50%;
-    border-bottom-right-radius: 50%;
-    border-bottom-left-radius: 50%;
-  
+    border-radius: 50%;
+    background-color: blanchedalmond;
+    box-sizing: border-box; 
 }
-h1, p {
-    border: 5px solid blue;
+img:hover {
+    background-color: blue;
+}
+h1 {
+    margin: 50px;
+    padding: 0px;
+    font-family: Scheherazade New, Helvetica, sans-serif;
     text-align: center;
+    text-align: right;
+    margin: 25px;
+}
+    
+p:hover {
+    background-color: lightblue;
 }
 #image_box { 
     text-align: center;
-  
 }
 p {
     font-size: 3rem;
+    padding: 10px;
+    margin-bottom: 50px;
+    margin-top: 0;
+    font-family: Scheherazade New, Helvetica, sans-serif;
+    text-align: center;
 }
 div p{ 
     background-color: pink;
+    font-family: Scheherazade New;
+}
+
 }
 div p:hover {
     background-color: lightblue;
+}
+ol {
+    border: 2px solid black;
+    text-align: center;
+    width: 100px;
+    margin: 0 auto;
+
 }

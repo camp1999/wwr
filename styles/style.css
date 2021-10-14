@@ -6,6 +6,13 @@ nav a{
     text-align: center;
     color: #443742;
     text-decoration: none;
+    margin: 40px 100px;
+    padding: 35px;
+    font-family: 'Bebas Neue', Arial, Helvetica, sans-serif;
+}
+#hero-img {
+  max-width: 100%;
+  height: auto;
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
@@ -16,11 +23,19 @@ nav a{
 main section {
     text-align: center;
 }
+main section img {
+    box-sizing: border-box;
+}
 #background {
     height: 725px;
 }
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Yaldevi:wght@200&display=swap');
 body {
     background-color:#c95d30;
+    font-family: 'Yaldevi', Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color: #e2e8c0;
@@ -32,6 +47,11 @@ nav a:hover {
 .book, .join {
     color: #443742;
     text-decoration: none;
+    font-family: 'Bebas Neue', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color:#ec9f38;
@@ -42,13 +62,20 @@ nav a:hover {
     background-color: grey;
 }
 .msg {
-    background: #e2e8c0 ;
+    background: #e2e8c0;
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer {
     background-color:#e2e8c0;
+    font-family: 'Bebas Neue', Arial, Helvetica, sans-serif;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 .home-title {
-    color:#e2e8c0
+    color:#e2e8c0;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4 {
     color: #e2e8c0
@@ -58,7 +85,9 @@ h4 {
     color: #e2e8c0;
 }
 .msg p {
-    color: #443742
+    color: #443742;
+    font-size: 0.8em;
+    padding-bottom: 15px;
 }
 footer h3 {
     color: #443742;
@@ -67,6 +96,9 @@ footer a {
     color: #443742;
     text-decoration: none;
 }
+footer .social img {
+    padding-top: 15px;
+}
 footer a:hover {
     background-color: #ec9f38;
     color: white;
@@ -74,14 +106,26 @@ footer a:hover {
 }
 h2 {
     color: #e2e8c0;
+    margin: 0;
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 .logo {
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
-    text-align:center;
+    margin: 50px 500px;
+    text-align: center;
+}
+#logo_link {
+    padding-top: 5px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #e2e8c0
 }
