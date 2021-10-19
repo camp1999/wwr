@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Yaldevi:wght@200&display=swap');
 div #content{
     max-width: 1600px;
     margin: 0 auto;
@@ -11,8 +13,8 @@ nav a{
     font-family: 'Bebas Neue', Arial, Helvetica, sans-serif;
 }
 #hero-img {
-  max-width: 100%;
-  height: auto;
+   background-size: cover;
+   width:100%;
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
@@ -29,8 +31,6 @@ main section img {
 #background {
     height: 725px;
 }
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Yaldevi:wght@200&display=swap');
 body {
     background-color:#c95d30;
     font-family: 'Yaldevi', Arial, Helvetica, sans-serif;
