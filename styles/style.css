@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Yaldevi:wght@200&display=swap');
-div #content{
+#content{
     max-width: 1600px;
     margin: 0 auto;
 }
@@ -117,7 +117,7 @@ h2 {
     border-top-right-radius: 50%;
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
-    margin: 80px;
+    width: 80px;
     text-align: center;
 }
 #logo_link {
