@@ -195,6 +195,11 @@ img {
     grid-column: 8/10;
     grid-row: 2/3;
 }
+#banner-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
