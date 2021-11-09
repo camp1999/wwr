@@ -195,11 +195,54 @@ img {
     grid-column: 8/10;
     grid-row: 2/3;
 }
+#content1 {
+    margin: 0 auto;
+}
 #banner-box {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(10, 1fr);
 }
-
+#banner1 {
+    grid-column: 2/5;
+    max-width: fit-content;
+    padding-top: 200px;
+}
+#banner1 img {
+    width: 500px;
+    height: 300px;
+}
+#banner1 p {
+    background-color: #e2e8c0;
+    box-shadow: 5px 5px 10px #443742;
+    grid-column: 3/6;
+}
+#banner2 {
+    grid-column: 7/10;
+    padding-top: 50px;
+    padding-top: 200px;
+}
+#banner2 img {
+    width: 500px;
+    height: 300px;
+}
+#banner2 p {
+    background-color: #e2e8c0;
+    box-shadow: 5px 5px 10px #443742;
+    grid-column: 5/7;
+}
+#banner3 {
+    grid-column: 2/5;
+    padding-top: 250px;
+}
+#banner3 img{
+    width: 500px;
+    height: 300px;
+}
+#banner3 p {
+    background-color: #e2e8c0;
+    box-shadow: 5px 5px 10px #443742;
+    grid-column: 4/6;
+}
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
